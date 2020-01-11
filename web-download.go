@@ -14,7 +14,7 @@ func main() {
 	//第一个参数是接口名，第二个参数 http handle func
 	http.HandleFunc("/", requestHandle)
 	//服务器要监听的主机地址和端口号
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":3000", nil)
 
 }
 
